@@ -24,7 +24,8 @@ Add it in your root build.gradle at the end of repositories:
   
   xml引入属性如下：
   
- <com.yiyuan.imageviewcircular.YiYuanTextView
+	
+        <com.yiyuan.imageviewcircular.YiYuanTextView
         android:id="@+id/yiYuanView"
         android:layout_width="300dp"
         android:layout_height="100dp"
@@ -32,6 +33,9 @@ Add it in your root build.gradle at the end of repositories:
         app:textColor="@color/colorAccent"
         app:textSize="16"
         app:textStyle="3" />
+
+        
+
         
  API方法调用如下：
  
