@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SJRView">
+        <attr name="pointSize" format="integer" />
+    </declare-styleable>
+
+    <declare-styleable name="YiYuanTextView">
+        <attr name="textSize" format="integer" />
+        <attr name="text" format="string" />
+        <attr name="textColor" format="string" />
+        <attr name="textStyle" format="integer" />
+    </declare-styleable>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+    <com.yiyuan.imageviewcircular.YiYuanTextView
+        android:id="@+id/sjrView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:text="走马灯的效果，来测试一波,走马灯的效果，来测试一波"
+        app:textColor="@color/colorAccent"
+        app:textSize="16"
+        app:textStyle="3" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开始" />
+
+    <Button
+        android:id="@+id/btnStop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="暂停" />
+
+    <Button
+        android:id="@+id/btnReStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重来" />
+</LinearLayout>
