@@ -78,8 +78,11 @@ public class YiYuanTextView extends View {
     protected void onDraw(Canvas canvas) {
         super.onDraw(canvas);
         mX = getWidth() - num;
-        textWidth = mPaint.measureText(text);
-        canvas.drawText(text, mX, 100, mPaint);
+        if (text != null && !text.equals("")) {
+            textWidth = mPaint.measureText(text);
+            canvas.drawText(text, mX, 100, mPaint);
+        }
+
     }
 
     Timer timer;

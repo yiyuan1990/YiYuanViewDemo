@@ -10,7 +10,6 @@
         android:id="@+id/sjrView"
         android:layout_width="match_parent"
         android:layout_height="100dp"
-        app:text="走马灯的效果，来测试一波,走马灯的效果，来测试一波"
         app:textColor="@color/colorAccent"
         app:textSize="16"
         app:textStyle="3" />
