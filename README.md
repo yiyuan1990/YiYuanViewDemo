@@ -53,4 +53,4 @@ Add it in your root build.gradle at the end of repositories:
   
   提示：
   
-  暂时功能API较少，后续会增加各种炫酷效果，敬请期待...
+  暂时功能API较少，后面会增加一些炫酷效果
